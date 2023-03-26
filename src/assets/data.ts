@@ -182,7 +182,3 @@ export const policies = [
     "description": "We may update our Privacy Policy from time to time, and any changes will be posted on this page. It is recommended to review the policy periodically."
   }
 ]
-
-
-
-

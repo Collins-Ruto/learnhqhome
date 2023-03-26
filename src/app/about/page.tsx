@@ -26,7 +26,7 @@ export default function page() {
                 <blockquote>
                   <p>
                     <span>
-                      Jobs fill your pockets, adventures fill your soul.
+                      Learning reigns supreme and knowledge is crowned.
                     </span>
                   </p>
                 </blockquote>
@@ -35,12 +35,12 @@ export default function page() {
                   <span>
                     At LearnHq, our mission is to revolutionize education by
                     providing innovative and user-friendly Learning Management
-                    System (LMS) and School Management System solutions.
-                    We are committed to simplifying the learning experience, empowering
+                    System (LMS) and School Management System solutions. We are
+                    committed to simplifying the learning experience, empowering
                     educators, and enabling learners to thrive in a digital age.
-                    With unwavering dedication, we aim to transform education and make quality
-                    learning accessible to all, fostering a brighter future for
-                    individuals and communities worldwide.
+                    With unwavering dedication, we aim to transform education
+                    and make quality learning accessible to all, fostering a
+                    brighter future for individuals and communities worldwide.
                   </span>
                 </p>
               </div>

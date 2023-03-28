@@ -1,4 +1,4 @@
-import { Contact, WhyUs } from "@/components";
+import { Contact, Stats, WhyUs } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -52,12 +52,19 @@ export default function Home() {
             <WhyUs />
           </div>
         </div>
-        <div className="">
-          <div className="py-[4rem] px-4">
-            <div className="container mx-auto bg-[url('/contactbg.webp')] bg-cover bg-center  ">
-              <div className="container px-8 sm:px-6 bg-slate-900 bg-opacity-60 m:px-0 lg:px-20 mx-auto">
-                <Contact />
+        <div className="pt-[4rem] text-black">
+          <div className=" bg-[url('/contactbg.webp')] bg-fixed bg-cover bg-center">
+            <div className="mx-auto  bg-white bg-opacity-70">
+              <div className="container py-[2rem] px-8 sm:px-6 m:px-0 lg:px-20 mx-auto">
+                <Stats />
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="py-[4rem] px-4">
+          <div className="container mx-auto bg-[url('/contactbg.webp')] bg-cover bg-center  ">
+            <div className="container px-8 sm:px-6 bg-slate-900 bg-opacity-60 m:px-0 lg:px-20 mx-auto">
+              <Contact />
             </div>
           </div>
         </div>

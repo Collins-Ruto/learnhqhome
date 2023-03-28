@@ -62,3 +62,26 @@ export const contacts = [
     info2: "Saba Saba Mombasa, Kenya",
   },
 ];
+
+export const stats = [
+  {
+    icon: "https://img.icons8.com/glyph-neue/64/000000/university.png",
+    title: "Schools",
+    value: "23+",
+  },
+  {
+    icon: "https://img.icons8.com/glyph-neue/64/000000/books.png",
+    title: "Courses",
+    value: "100+",
+  },
+  {
+    icon: "https://img.icons8.com/glyph-neue/64/000000/student-male.png",
+    title: "Students",
+    value: "1200+",
+  },
+  {
+    icon: "https://img.icons8.com/glyph-neue/64/000000/groups.png",
+    title: "Community",
+    value: "5500+",
+  },
+];

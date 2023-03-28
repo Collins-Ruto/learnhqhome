@@ -4,9 +4,9 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <footer className="bg-slate-900 text-center text-white">
-        <div className="container px-6 pt-6">
-          <div className="mb-4 flex justify-center">
+      <footer className="bg-slate-900 text-center text-white ">
+        <div className="container px-6 mx-auto pt-6">
+          <div className="mb-4 w-full flex justify-center">
             <Link
               href="https://collinsruto.netlify.com"
               type="button"

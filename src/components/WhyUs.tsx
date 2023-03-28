@@ -11,32 +11,42 @@ const attributes = [
       "https://img.icons8.com/material-rounded/50/89CFF0/dashboard-layout.png",
   },
   {
-    title: "Trending and certified courses",
+    title: "Robust LMS: Simplify online learning.",
     image:
       "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
   {
-    title: "Trending and certified courses",
+    title: "Custom Solutions: Tailored to your needs",
     image:
       "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
   {
-    title: "Trending and certified courses",
+    title: "Innovative Tech: Stay ahead in education.",
     image:
       "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
   {
-    title: "Trending and certified courses",
+    title: "Expert Support: Partner in your success",
     image:
       "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
   {
-    title: "Trending and certified courses",
+    title: "Scalable Solutions: Grow with confidence.",
     image:
       "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
   {
-    title: "Trending and certified courses",
+    title: "Efficient SIS: Streamline school operations.",
+    image:
+      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
+  },
+  {
+    title: "Seamless Integration with existing systems",
+    image:
+      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
+  },
+  {
+    title: " Streamline administrative tasks with Automation.",
     image:
       "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
@@ -67,8 +77,8 @@ function WhyUs() {
           </span>
         </div>
         <div className="flex flex-wrap gap-4">
-          {attributes.map((attribute) => (
-            <div className="w-1/2 md:w-1/3 lg:w-1/4 grow">
+          {attributes.map((attribute, index) => (
+            <div className={`w-1/2 md:w-1/3 lg:w-1/4 grow ${index > 6 ? "hidden md:block" : "block"}`}key={index}>
               {attributeCard(attribute)}
             </div>
           ))}

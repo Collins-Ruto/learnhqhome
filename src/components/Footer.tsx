@@ -25,7 +25,7 @@ function Footer() {
             </Link>
 
             <Link
-              href="https://github.com/collins-ruto"
+              href="https://twitter.com/ruto_collins_"
               type="button"
               className="m-1 h-9 w-9 hover:h-10 hover:w-10 hover:border-gray-500 rounded-full border-2 border-white uppercase leading-normal text-white hover:bg-pink-600 hover:border-none transition-all duration-150 ease-in-out bg-black bg-opacity-20 focus:outline-none focus:ring-0"
               data-te-ripple-init

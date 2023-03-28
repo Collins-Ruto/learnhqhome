@@ -12,19 +12,19 @@ type Contact = {
 function Contact() {
   const contacts = [
     {
-      icon: "https://img.icons8.com/material-rounded/50/89CFF0/dashboard-layout.png",
+      icon: "https://img.icons8.com/ios-filled/50/794ACF/new-post.png",
       title: "EMAIL",
       info1: "learnhqafrica@gmail.com",
       info2: "collinsruto48@gmail.com",
     },
     {
-      icon: "https://img.icons8.com/material-rounded/50/89CFF0/dashboard-layout.png",
+      icon: "https://img.icons8.com/glyph-neue/64/794ACF/phone.png",
       title: "PHONE",
       info1: "+254711339134",
       info2: "+254785767763",
     },
     {
-      icon: "https://img.icons8.com/material-rounded/50/89CFF0/dashboard-layout.png",
+      icon: "https://img.icons8.com/ios-filled/50/794ACF/address--v1.png",
       title: "ADDRESS",
       info1: "Highrise house",
       info2: "Saba Saba Mombasa, Kenya",
@@ -34,13 +34,13 @@ function Contact() {
   const contactCard = (contact: Contact) => {
     return (
       <div className="flex flex-col py-6 gap-3 text-center bg-slate-50 rounded-md">
-        <div className="flex mx-auto">
+        <div className="flex items-center mx-auto">
           <Image
             width={60}
             height={60}
-            className="mr-2 w-6 rounded-sm"
+            className="mr-2 w-5 h-5 rounded-sm"
             src={contact.icon}
-            alt=""
+            alt="contact"
           />
           <span className="text-black font-semibold">{contact.title}</span>
         </div>

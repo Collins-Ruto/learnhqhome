@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ContactForm from "./ContactForm";
+import { contacts } from "@/assets/data";
 
 type Contact = {
   icon: string;
@@ -10,26 +11,7 @@ type Contact = {
 };
 
 function Contact() {
-  const contacts = [
-    {
-      icon: "https://img.icons8.com/ios-filled/50/794ACF/new-post.png",
-      title: "EMAIL",
-      info1: "learnhqafrica@gmail.com",
-      info2: "collinsruto48@gmail.com",
-    },
-    {
-      icon: "https://img.icons8.com/glyph-neue/64/794ACF/phone.png",
-      title: "PHONE",
-      info1: "+254711339134",
-      info2: "+254785767763",
-    },
-    {
-      icon: "https://img.icons8.com/ios-filled/50/794ACF/address--v1.png",
-      title: "ADDRESS",
-      info1: "Highrise house",
-      info2: "Saba Saba Mombasa, Kenya",
-    },
-  ];
+  
 
   const contactCard = (contact: Contact) => {
     return (

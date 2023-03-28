@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://learnhqhome.vercel.app"),
   description:
-    "LearnHQ is a comprehensive learning management system that provides quality education and resources to students, teachers, and parents.",
+    "LearnHQ is a comprxehensive learning management system that provides quality education and resources to students, teachers, and parents.",
   keywords: [
     "learnhq",
     "learn",

@@ -1,56 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import { attributes } from "@/assets/data";
+
 type Attribute = {
   title: string;
   image: string;
 };
-const attributes = [
-  {
-    title: "Trending and certified courses",
-    image:
-      "https://img.icons8.com/material-rounded/50/89CFF0/dashboard-layout.png",
-  },
-  {
-    title: "Robust LMS: Simplify online learning.",
-    image:
-      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
-  },
-  {
-    title: "Custom Solutions: Tailored to your needs",
-    image:
-      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
-  },
-  {
-    title: "Innovative Tech: Stay ahead in education.",
-    image:
-      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
-  },
-  {
-    title: "Expert Support: Partner in your success",
-    image:
-      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
-  },
-  {
-    title: "Scalable Solutions: Grow with confidence.",
-    image:
-      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
-  },
-  {
-    title: "Efficient SIS: Streamline school operations.",
-    image:
-      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
-  },
-  {
-    title: "Seamless Integration with existing systems",
-    image:
-      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
-  },
-  {
-    title: " Streamline administrative tasks with Automation.",
-    image:
-      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
-  },
-];
 
 function WhyUs() {
   const attributeCard = (attribute: Attribute) => {
@@ -59,7 +14,7 @@ function WhyUs() {
         <Image
           width={60}
           height={60}
-          className="mr-2 w-20 rounded-sm"
+          className="mr-2 w-15 rounded-sm"
           src={attribute.image}
           alt=""
         />

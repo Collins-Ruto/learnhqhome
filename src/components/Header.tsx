@@ -6,12 +6,11 @@ import Link from "next/link";
 
 function Header() {
   const [opened, setOpened] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
 
   const currentRoute = usePathname();
 
   return (
-    <div className="sticky top-0 z-40 mx-auto text-black bg-[#F7F6FB] bg-blend-darken">
+    <div className="sticky top-0 z-40 mx-auto text-black bg-white bg-blend-darken">
       <div className="pl-4">
         <nav className="flex items-center justify-between">
           <div className="py-1.5 px-2 w-full flex md:hidden justify-between">
@@ -36,8 +35,8 @@ function Header() {
             </div>
           </div>
           <header className="w-full hidden md:block border-b border-gray-300">
-            <div className="container mx-auto flex items-center justify-between px-4 py-2">
-              <div className="flex">
+            <div className="container lg:px-20 mx-auto flex items-center justify-between px-4 py-2">
+              <Link href="/" className="cursor-pointer flex">
                 <Image
                   width={100}
                   height={100}
@@ -45,7 +44,7 @@ function Header() {
                   alt="learnhq"
                   className="mr-2"
                 />
-              </div>
+              </Link>
               <div className="flex items-center">
                 <nav className="text-gray-700">
                   <ul className="flex font-semibold md:text-lg space-x-2 md:space-x-4 text-sm">

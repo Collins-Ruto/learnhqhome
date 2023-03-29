@@ -20,9 +20,9 @@ export default function RootLayout({
         {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
           <GoogleAnalytics ga_id={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
         ) : null}
-        <div className={`${inter.variable}`}>
+        <div className={`${inter.variable}bg-white `}>
           <Header />
-          <div className="bg-white">{children}</div>
+          <div className=" text-black">{children}</div>
         </div>
         <Analytics />
       </body>

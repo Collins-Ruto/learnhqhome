@@ -1,27 +1,30 @@
-import './globals.css'
+import { GoogleAnalytics, Header } from "@/components";
+import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
-import { Inter } from 'next/font/google'
-import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body className={inter.className}>
         {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
-            <GoogleAnalytics ga_id={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
-          ) : null}
-        {children}
+          <GoogleAnalytics ga_id={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
+        ) : null}
+        <div className="">
+          <Header />
+          <div className="bg-white">{children}</div>
+        </div>
         <Analytics />
       </body>
     </html>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -57,8 +60,8 @@ export const metadata: Metadata = {
       rel: "icon",
       type: "image/x-icon",
       sizes: "any",
-      url: "/favicon.ico"
-  },
+      url: "/favicon.ico",
+    },
     {
       rel: "icon",
       type: "image/png",

@@ -20,7 +20,7 @@ function Contact() {
           <Image
             width={60}
             height={60}
-            className="mr-2 w-5 h-5 rounded-sm"
+            className="mr-2 w-6 h-6 rounded-sm"
             src={contact.icon}
             alt="contact"
           />

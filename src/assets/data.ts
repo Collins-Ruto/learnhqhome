@@ -44,7 +44,7 @@ export const attributes = [
 
 export const contacts = [
   {
-    icon: "https://img.icons8.com/ios-filled/50/4F02FF/new-post.png",
+    icon: "https://img.icons8.com/ios-filled/64/4F02FF/new-post.png",
     title: "EMAIL",
     info1: "learnhqafrica@gmail.com",
     info2: "collinsruto48@gmail.com",
@@ -56,7 +56,7 @@ export const contacts = [
     info2: "+254785767763",
   },
   {
-    icon: "https://img.icons8.com/ios-filled/50/4F02FF/address--v1.png",
+    icon: "https://img.icons8.com/ios-filled/64/4F02FF/address--v1.png",
     title: "ADDRESS",
     info1: "Highrise house",
     info2: "Saba Saba Mombasa, Kenya",

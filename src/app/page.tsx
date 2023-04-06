@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-gray-100 m-0 p-0">
+    <div className="min-h-screen flex flex-col justify-between bg-gray-100 ">
       <div className="">
         <main className="container min-h-[calc(100vh_-_3.5rem)] 2xl:min-h-[34rem] 2xl:pb-16 px-8 sm:px-6 m:px-0 lg:px-20  flex flex-col md:flex-row mx-auto py-2 md:flex items-center justify-center">
           <div className="flex gap-4 flex-col md:block text-center md:text-left order-last md:order-first">
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <div className="py-[4rem] px-4">
           <div className="container mx-auto bg-[url('/contactbg.webp')] bg-cover bg-center  ">
-            <div className="container px-8 sm:px-6 bg-slate-900 bg-opacity-60 m:px-0 lg:px-20 mx-auto">
+            <div className=" px-8 sm:px-6 bg-slate-900 bg-opacity-60 m:px-0 lg:px-20 mx-auto">
               <Contact />
             </div>
           </div>

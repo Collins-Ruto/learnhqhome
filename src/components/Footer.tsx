@@ -205,7 +205,7 @@ function Footer() {
               © 2023 LearnHq. All rights reserved | by{" "}
               <Link
                 className="text-blue-400 "
-                href="https://tailwind-elements.com/"
+                href="https://collinsruto.netlify.com"
               >
                 Collins Ruto
               </Link>

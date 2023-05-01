@@ -69,14 +69,10 @@ export default page;
 
 export const metadata: Metadata = {
   title: "FAQs",
-  metadataBase: new URL("https://learnhq.vercel.app/faq"),
+  metadataBase: new URL("https://learnhqhome.vercel.app/faq"),
   description:
     "LearnHQ Frequently asked questions. We are a comprehensive learning management system that provides quality education and resources to students, teachers, and parents.",
-  keywords: [
-    " learnhq faqs",
-    "learnhq questions",
-    "know learnhq",
-  ],
+  keywords: [" learnhq faqs", "learnhq questions", "know learnhq"],
   alternates: {
     canonical: "/",
   },

@@ -55,10 +55,15 @@ export default page;
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  metadataBase: new URL("https://learnhq.vercel.app/privacy"),
+  metadataBase: new URL("https://learnhqhome.vercel.app/privacy"),
   description:
     "LearnHQ Privacy Policy. We are a comprehensive learning management system that provides quality education and resources to students, teachers, and parents.",
-  keywords: [" learnhq Privacy Policy", "learnhq questions", "know learnhq", "learnhq safety measures"],
+  keywords: [
+    " learnhq Privacy Policy",
+    "learnhq questions",
+    "know learnhq",
+    "learnhq safety measures",
+  ],
   alternates: {
     canonical: "/",
   },

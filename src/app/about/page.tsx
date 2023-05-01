@@ -61,7 +61,7 @@ export default function page() {
 
 export const metadata: Metadata = {
   title: "About Us",
-  metadataBase: new URL("https://learnhq.vercel.app/about"),
+  metadataBase: new URL("https://learnhqhome.vercel.app/about"),
   description:
     "LearnHQ About Us. we are a comprehensive learning management system that provides quality education and resources to students, teachers, and parents.",
   keywords: [

@@ -20,7 +20,7 @@ export default page;
 
 export const metadata: Metadata = {
   title: "Contact Us",
-  metadataBase: new URL("https://learnhq.vercel.app/contact"),
+  metadataBase: new URL("https://learnhqhome.vercel.app/contact"),
   description:
     "LearnHQ Terms and Conditions. We are a comprehensive learning management system that provides quality education and resources to students, teachers, and parents.",
   keywords: [

@@ -55,24 +55,30 @@ export const metadata: Metadata = {
   icons: [
     {
       rel: "icon",
+      type: "image/x-icon",
+      sizes: "any",
+      url: "/favicon.ico"
+  },
+    {
+      rel: "icon",
       type: "image/png",
       sizes: "32x32",
-      url: "https://github.com/Collins-Ruto/learnhq/blob/main/assets/favicon-32x32.png?raw=true",
+      url: "/favicon-32x32.png",
     },
     {
       rel: "icon",
       type: "image/png",
       sizes: "16x16",
-      url: "https://github.com/Collins-Ruto/learnhq/blob/main/assets/favicon-16x16.png?raw=true",
+      url: "/favicon-16x16.png",
     },
     {
       rel: "apple",
       sizes: "180x180",
-      url: "https://github.com/Collins-Ruto/learnhq/blob/main/assets/apple-touch-icon.png?raw=true",
+      url: "/apple-touch-icon.png",
     },
   ],
   themeColor: "#ffffff",
-  manifest: "https://learnhq.vercel.app/site.webmanifest",
+  manifest: "https://learnhqhome.vercel.app/site.webmanifest",
   openGraph: {
     type: "website",
     title: "LearnHq School & Learning System",

@@ -1,3 +1,28 @@
 {
-  "extends": ["next/babel","next/core-web-vitals"]
+  "overrides": [
+    {
+      "extends": [
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+      ],
+      "files": ["*.ts", "*.tsx"]
+    }
+  ],
+  "parser": "@typescript-eslint/parser",
+
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "next/babel",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/consistent-type-imports": [
+      "warn",
+      {
+        "prefer": "type-imports",
+        "fixStyle": "inline-type-imports"
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }]
+  }
 }

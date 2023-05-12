@@ -11,8 +11,8 @@ function ContactForm() {
     <div>
       <form
         className="flex flex-col gap-4"
-        action="https://formsubmit.co/76e790e2609584c53fda7e9658fbf3ae"
-        method="POST"
+        // action="https://formsubmit.co/76e790e2609584c53fda7e9658fbf3ae"
+        // method="POST"
       >
         <div className="flex-col sm:flex-row flex gap-4 justify-between w-full">
           <input

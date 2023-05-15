@@ -92,7 +92,7 @@ function Footer() {
           </div>
 
           <div className="text-center md:flex items-center justify-between">
-            <div className="px-6 md:px-0 pt-6 order-last ">
+            <div className="pt-6 order-last ">
               <div className="mb-4 w-full flex justify-center">
                 <Link
                   href="https://collinsruto.netlify.com"

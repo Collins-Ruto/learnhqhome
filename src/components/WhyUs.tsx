@@ -22,10 +22,10 @@ function WhyUs() {
     );
   };
   return (
-    <div className="container pt-6">
+    <div className="container sm:pt-6">
       <div className="text-white mx-auto">
         <div className="flex flex-col py-4  max-w-full">
-          <span className="text-5xl font-medium">Why Choose Us?</span>
+          <span className="text-4xl sm:text-5xl font-medium">Why Choose Us?</span>
           <span className="text py-2 ">
             Take a chance in simplifying learning / management with us!
           </span>

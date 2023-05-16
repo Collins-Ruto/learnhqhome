@@ -148,7 +148,6 @@ function Footer() {
                     />
                   </svg>
                 </Link>
-
                 <Link
                   href="https://instagram.com/learn.hq"
                   type="button"

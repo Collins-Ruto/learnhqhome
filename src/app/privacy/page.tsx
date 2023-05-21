@@ -1,4 +1,5 @@
 import { policies } from "@/assets/data";
+import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
 
@@ -51,3 +52,20 @@ function page() {
 }
 
 export default page;
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  metadataBase: new URL("https://learnhq.vercel.app/privacy"),
+  description:
+    "LearnHQ Privacy Policy. We are a comprehensive learning management system that provides quality education and resources to students, teachers, and parents.",
+  keywords: [" learnhq Privacy Policy", "learnhq questions", "know learnhq", "learnhq safety measures"],
+  alternates: {
+    canonical: "/",
+  },
+  authors: [
+    {
+      name: "Collins Ruto",
+      url: "https://collinsruto.netlify.app",
+    },
+  ],
+};

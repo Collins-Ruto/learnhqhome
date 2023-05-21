@@ -1,4 +1,5 @@
 import { faqs } from "@/assets/data";
+import { Metadata } from "next";
 import React from "react";
 
 type Faq = {
@@ -65,3 +66,24 @@ function page() {
 }
 
 export default page;
+
+export const metadata: Metadata = {
+  title: "FAQs",
+  metadataBase: new URL("https://learnhq.vercel.app/faq"),
+  description:
+    "LearnHQ Frequently asked questions. We are a comprehensive learning management system that provides quality education and resources to students, teachers, and parents.",
+  keywords: [
+    " learnhq faqs",
+    "learnhq questions",
+    "know learnhq",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  authors: [
+    {
+      name: "Collins Ruto",
+      url: "https://collinsruto.netlify.app",
+    },
+  ],
+};

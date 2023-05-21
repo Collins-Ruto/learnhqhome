@@ -45,6 +45,7 @@ export const metadata: Metadata = {
     "learnhq africa",
     "education",
     "learning management system",
+    "school management system",
     "lms",
   ],
   alternates: {

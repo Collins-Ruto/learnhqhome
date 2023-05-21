@@ -1,4 +1,5 @@
 import { Contact } from "@/components";
+import { Metadata } from "next";
 import React from "react";
 
 function page() {
@@ -16,3 +17,26 @@ function page() {
 }
 
 export default page;
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  metadataBase: new URL("https://learnhq.vercel.app/contact"),
+  description:
+    "LearnHQ Terms and Conditions. We are a comprehensive learning management system that provides quality education and resources to students, teachers, and parents.",
+  keywords: [
+    "contact learnhq",
+    "learnhq questions",
+    "learnhq phone",
+    "learnhq email",
+    "access learnhq",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  authors: [
+    {
+      name: "Collins Ruto",
+      url: "https://collinsruto.netlify.app",
+    },
+  ],
+};

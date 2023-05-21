@@ -1,4 +1,5 @@
 import { conditions } from "@/assets/data";
+import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
 
@@ -53,3 +54,26 @@ function page() {
 }
 
 export default page;
+
+export const metadata: Metadata = {
+  title: "Terms & Conditions",
+  metadataBase: new URL("https://learnhq.vercel.app/conditions"),
+  description:
+    "LearnHQ Terms and Conditions. We are a comprehensive learning management system that provides quality education and resources to students, teachers, and parents.",
+  keywords: [
+    "learnhq terms and conditions",
+    "learnhq questions",
+    "learnhq africa",
+    "learning management system",
+    "access learnhq",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  authors: [
+    {
+      name: "Collins Ruto",
+      url: "https://collinsruto.netlify.app",
+    },
+  ],
+};

@@ -22,7 +22,7 @@ function Contact() {
             height={60}
             className="mr-2 w-6 h-6 rounded-sm"
             src={contact.icon}
-            alt="contact"
+            alt="Learnhq contact"
           />
           <span className="text-black font-semibold">{contact.title}</span>
         </div>

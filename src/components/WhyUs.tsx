@@ -16,7 +16,7 @@ function WhyUs() {
           height={60}
           className="mr-2 w-15 rounded-sm"
           src={attribute.image}
-          alt=""
+          alt={`LearnHq ${attribute.title}`}
         />
         <span className="uppercase font-semibold">{attribute.title}</span>
       </div>

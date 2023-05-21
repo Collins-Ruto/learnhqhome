@@ -17,10 +17,10 @@ function Stats() {
           height={60}
           className="mr-2 w-15 rounded-sm"
           src={stat.icon}
-          alt=""
+          alt={`LearnHq ${stat.title}`}
         />
-            <span className="text-4xl font-bold">{stat.value}</span>
-            <div className="w-[25%] h-1 bg-pink-500"></div>
+        <span className="text-4xl font-bold">{stat.value}</span>
+        <div className="w-[25%] h-1 bg-pink-500"></div>
         <span className="text-2xl font-semibold">{stat.title}</span>
       </div>
     );

@@ -11,7 +11,6 @@ function Header() {
   const currentRoute = usePathname();
 
   return (
-    <div>
       <div className="sticky top-0 z-40 mx-auto text-black bg-[#F7F6FB] bg-blend-darken">
         <div className="pl-4">
           <nav className="flex items-center justify-between">
@@ -29,15 +28,13 @@ function Header() {
               <div className="container mx-auto flex items-center justify-between px-4 py-2">
                 <div className="flex">
                   <Image
-                    width={20}
-                    height={20}
-                    src="/learnhq.png"
+                    width={100}
+                    height={100}
+                    src="/lhlogo.png"
                     alt="learnhq"
                     className="mr-2"
                   />
-                  <h1 className="text-lg font-semibold text-gray-800">
-                    LearnHQ
-                  </h1>
+                  
                 </div>
                 <div className="flex items-center">
                   <nav className="text-gray-700">
@@ -48,7 +45,10 @@ function Header() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="https://learnhq.vercel.app" className="hover:text-blue-500">
+                        <Link
+                          href="https://learnhq.vercel.app"
+                          className="hover:text-blue-500"
+                        >
                           Demo
                         </Link>
                       </li>
@@ -89,7 +89,7 @@ function Header() {
             </header>
           </nav>
         </div>
-        <div className="">
+        <div className="md:hidden">
           <div className={`${opened ? "block " : "hidden md:block"}`}>
             <div
               className="absolute right-0 h-screen w-screen bg-black opacity-20 bg-blend-darken md:hidden"
@@ -102,14 +102,46 @@ function Header() {
                 setOpened(!opened);
               }}
               className="
-                md:pb-[3.5rem] absolute left-0 flex h-screen w-[60%] flex-col overflow-y-auto bg-[#F7F6FB] p-4 opacity-100 bg-blend-darken md:w-60 "
+                max-w-[20rem]  absolute left-0 flex h-screen w-[60%] flex-col overflow-y-auto bg-[#F7F6FB] p-4 opacity-100 bg-blend-darken md:w-60 "
             >
-              sidebar
+              <Link
+                href={`/`}
+                className={`mt-4 flex cursor-pointer items-center rounded-md p-2 align-middle text-gray-800 hover:text-blue-700 ${
+                  currentRoute === "/"
+                    ? "hover:text bg-blue-700 text-white hover:text-white"
+                    : ""
+                }`}
+              >
+                <Image
+                  width={20}
+                  height={20}
+                  className="mr-2 w-6 rounded-sm bg-[#F7F6FB]"
+                  src="https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png"
+                  alt=""
+                />
+                <span className="text-lg">Sidebar</span>
+              </Link>
+              <Link
+                href={`/about`}
+                className={`mt-4 flex cursor-pointer items-center rounded-md p-2 align-middle text-gray-800 hover:text-blue-700 ${
+                  currentRoute === "/about"
+                    ? "hover:text bg-blue-700 text-white hover:text-white"
+                    : ""
+                }`}
+              >
+                <Image
+                  width={20}
+                  height={20}
+                  className="mr-2 w-6 rounded-sm bg-[#F7F6FB]"
+                  src="https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png"
+                  alt=""
+                />
+                <span className="text-lg">About Us</span>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

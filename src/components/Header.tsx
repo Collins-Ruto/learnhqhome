@@ -50,7 +50,10 @@ function Header() {
                 <nav className="text-gray-700">
                   <ul className="flex font-semibold md:text-lg space-x-2 md:space-x-4 text-sm">
                     <li>
-                      <Link href={`"#"}`} className="hover:text-blue-500">
+                      <Link
+                        href="https://twitter.com/learnhqafrica"
+                        className="hover:text-blue-500"
+                      >
                         Forums
                       </Link>
                     </li>
@@ -77,7 +80,7 @@ function Header() {
                     </li>
                     <li>
                       <Link
-                        href="#"
+                        href="https://twitter.com/learnhqafrica"
                         className="hover:text-blue-500 hidden md:block"
                       >
                         Contact
@@ -92,11 +95,6 @@ function Header() {
                 >
                   Sign In
                 </Link>
-                {/* <div className="cursor-pointer md:hidden space-y-1 p-2 md:space-y-2">
-                <div className="h-1 w-6 rounded bg-blue-600 md:w-8"></div>
-                <div className="h-1 w-6 rounded bg-blue-600 md:w-8"></div>
-                <div className="h-1 w-6 rounded bg-blue-600 md:w-8"></div>
-              </div> */}
               </div>
             </div>
           </header>

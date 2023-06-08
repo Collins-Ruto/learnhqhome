@@ -52,7 +52,7 @@ function ContactForm() {
         <input type="hidden" name="_template" value="table"></input>
         <div className="w-full flex justify-center sm:justify-start">
           <button className="inline-block w-[50%]  mt-6 sm:mt-8 px-8 py-3 border border-transparent text-base leading-6 rounded-md text-white bg-primary-500 hover:bg-primary-700 focus:outline-none focus:border-primary-700 focus:shadow-outline-indigo font-semibold bg-indigo-600 active:bg-indigo-700 transition ease-in-out duration-150">
-            submit
+            Submit
           </button>
         </div>
       </form>

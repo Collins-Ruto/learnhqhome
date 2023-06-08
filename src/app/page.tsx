@@ -1,4 +1,4 @@
-import { Contact, WhyUs } from "@/components";
+import { Contact, Footer, WhyUs } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -60,6 +60,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="">
+          <Footer />
         </div>
       </div>
     </div>

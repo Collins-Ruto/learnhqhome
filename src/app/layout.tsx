@@ -1,4 +1,4 @@
-import { GoogleAnalytics, Header } from "@/components";
+import { Footer, GoogleAnalytics, Header } from "@/components";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
@@ -23,6 +23,7 @@ export default function RootLayout({
         <div className={`${inter.variable}bg-white `}>
           <Header />
           <div className=" text-black">{children}</div>
+          <Footer />
         </div>
         <Analytics />
       </body>

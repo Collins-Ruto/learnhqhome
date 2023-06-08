@@ -6,7 +6,7 @@ function Footer() {
     <div>
       <footer className="bg-slate-900 text-center text-white">
         <div className="container px-6 pt-6">
-          <div className="mb-6 flex justify-center">
+          <div className="mb-4 flex justify-center">
             <Link
               href="https://collinsruto.netlify.com"
               type="button"

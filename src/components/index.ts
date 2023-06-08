@@ -1,5 +1,6 @@
+export { default as WhyUs } from "./WhyUs"
 export { default as Header } from "./Header"
 export { default as Footer } from "./Footer"
 export { default as Contact } from "./Contact"
-export { default as WhyUs } from "./WhyUs"
+export { default as ContactForm } from "./ContactForm"
 export { default as GoogleAnalytics } from "./GoogleAnalytics"

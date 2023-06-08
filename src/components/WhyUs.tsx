@@ -8,48 +8,48 @@ const attributes = [
   {
     title: "Trending and certified courses",
     image:
-      "https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png",
+      "https://img.icons8.com/material-rounded/50/89CFF0/dashboard-layout.png",
   },
   {
     title: "Trending and certified courses",
     image:
-      "https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png",
+      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
   {
     title: "Trending and certified courses",
     image:
-      "https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png",
+      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
   {
     title: "Trending and certified courses",
     image:
-      "https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png",
+      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
   {
     title: "Trending and certified courses",
     image:
-      "https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png",
+      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
   {
     title: "Trending and certified courses",
     image:
-      "https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png",
+      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
   {
     title: "Trending and certified courses",
     image:
-      "https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png",
+      "https://img.icons8.com/material-rounded/50/87CEEB/dashboard-layout.png",
   },
 ];
 
 function WhyUs() {
   const attributeCard = (attribute: Attribute) => {
     return (
-      <div className="p-4 items-center flex bg-opacity-80 bg-blue-800">
+      <div className="p-4 items-center flex bg-opacity-90 bg-blue-900">
         <Image
           width={60}
           height={60}
-          className="mr-2 w-20 rounded-sm bg-[#F7F6FB]"
+          className="mr-2 w-20 rounded-sm"
           src={attribute.image}
           alt=""
         />
@@ -58,12 +58,12 @@ function WhyUs() {
     );
   };
   return (
-    <div className="container pt-12">
+    <div className="container pt-6">
       <div className="text-white mx-auto">
         <div className="flex flex-col py-4  max-w-full">
-          <span className="text-4xl font-semibold">Why Choose Us</span>
-          <span className="text ">
-            Take a chance in simplifying learning with us!
+          <span className="text-5xl font-medium">Why Choose Us?</span>
+          <span className="text py-2 ">
+            Take a chance in simplifying learning / management with us!
           </span>
         </div>
         <div className="flex flex-wrap gap-4">

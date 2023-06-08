@@ -1,4 +1,4 @@
-import { WhyUs } from "@/components";
+import { Contact, WhyUs } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -50,6 +50,11 @@ export default function Home() {
         <div className="bg-[url('/bookbg.png')] bg-cover bg-center py-[4rem] ">
           <div className="container px-8 sm:px-6 m:px-0 lg:px-20 mx-auto">
             <WhyUs />
+          </div>
+        </div>
+        <div className="bg-[url('/bookbg.png')] bg-cover bg-center py-[4rem] ">
+          <div className="container px-8 sm:px-6 m:px-0 lg:px-20 mx-auto">
+            <Contact />
           </div>
         </div>
       </div>

@@ -47,14 +47,18 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-        <div className="bg-[url('/bookbg.png')] bg-cover bg-center py-[4rem] ">
+        <div className="bg-[url('/bookbg.webp')] bg-cover bg-center py-[4rem] ">
           <div className="container px-8 sm:px-6 m:px-0 lg:px-20 mx-auto">
             <WhyUs />
           </div>
         </div>
-        <div className="bg-[url('/bookbg.png')] bg-cover bg-center py-[4rem] ">
-          <div className="container px-8 sm:px-6 m:px-0 lg:px-20 mx-auto">
-            <Contact />
+        <div className="">
+          <div className="py-[4rem] px-4">
+            <div className="container mx-auto bg-[url('/contactbg.webp')] bg-cover bg-center  ">
+              <div className="container px-8 sm:px-6 bg-slate-900 bg-opacity-60 m:px-0 lg:px-20 mx-auto">
+                <Contact />
+              </div>
+            </div>
           </div>
         </div>
       </div>

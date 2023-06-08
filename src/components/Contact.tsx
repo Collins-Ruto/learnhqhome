@@ -50,7 +50,7 @@ function Contact() {
     );
   };
   return (
-    <div className="container py-6">
+    <div className="container  py-6">
       <div className="text-white mx-auto">
         <div className="flex flex-col py-4 gap-6 max-w-full flex-wrap">
           <div className="flex flex-col">

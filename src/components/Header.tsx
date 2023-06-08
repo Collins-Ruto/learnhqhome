@@ -18,7 +18,7 @@ function Header() {
               <Image
                 width={90}
                 height={90}
-                src="/lhlogo.png"
+                src="/lhlogo.webp"
                 alt="learnhq"
                 className=""
               />

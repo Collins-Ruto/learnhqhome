@@ -79,7 +79,7 @@ function Header() {
                     </li>
                     <li>
                       <Link
-                        href="https://twitter.com/learnhqafrica"
+                        href="/contact"
                         className="hover:text-blue-500 hidden md:block"
                       >
                         Contact
@@ -90,9 +90,9 @@ function Header() {
                 </nav>
                 <Link
                   href="https://learnhq.vercel.app/login"
-                  className="rounded-md md:mx-2 bg-blue-500 px-4 py-1.5 font-medium text-white hover:bg-blue-600"
+                  className="inline-block px-5 py-2 border border-transparent text-base leading-6 rounded-md text-white bg-primary-500 hover:bg-primary-700 focus:outline-none focus:border-primary-700 focus:shadow-outline-indigo font-semibold bg-indigo-600 active:bg-indigo-700 transition ease-in-out duration-150"
                 >
-                  Sign In
+                  Demo
                 </Link>
               </div>
             </div>

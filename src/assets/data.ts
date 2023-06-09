@@ -44,19 +44,19 @@ export const attributes = [
 
 export const contacts = [
   {
-    icon: "https://img.icons8.com/ios-filled/50/794ACF/new-post.png",
+    icon: "https://img.icons8.com/ios-filled/50/4F02FF/new-post.png",
     title: "EMAIL",
     info1: "learnhqafrica@gmail.com",
     info2: "collinsruto48@gmail.com",
   },
   {
-    icon: "https://img.icons8.com/glyph-neue/64/794ACF/phone.png",
+    icon: "https://img.icons8.com/glyph-neue/64/4F02FF/phone.png",
     title: "PHONE",
     info1: "+254711339134",
     info2: "+254785767763",
   },
   {
-    icon: "https://img.icons8.com/ios-filled/50/794ACF/address--v1.png",
+    icon: "https://img.icons8.com/ios-filled/50/4F02FF/address--v1.png",
     title: "ADDRESS",
     info1: "Highrise house",
     info2: "Saba Saba Mombasa, Kenya",
@@ -85,3 +85,34 @@ export const stats = [
     value: "5500+",
   },
 ];
+
+export const faqs = [
+  {
+    "title": "What is the Learning Management System (LMS) and School Management System (SMS) offered by LearnHq?",
+    "response": "Our LMS is a comprehensive platform that facilitates online learning, course creation, and learner management. Our SMS streamlines administrative tasks such as student enrollment, attendance tracking, grading, and reporting."
+  },
+  {
+    "title": "How can LearnHq's solutions benefit my educational institution?",
+    "response": "Our solutions simplify the management of educational processes, enhance learner engagement, and provide a seamless online learning experience. They save time and effort by automating administrative tasks, allowing educators to focus more on teaching."
+  },
+  {
+    "title": "Can I customize LearnHq's solutions to fit my specific needs?",
+    "response": "Yes, our solutions are designed to be flexible and customizable. We work closely with you to tailor the systems to match your institution's requirements."
+  },
+  {
+    "title": "What level of support can I expect from LearnHq?",
+    "response": "We provide dedicated support to address any questions or issues you may have. Our support team is committed to ensuring your success and timely assistance."
+  },
+  {
+    "title": "Is LearnHq's technology up-to-date and secure?",
+    "response": "Absolutely. Our solutions leverage cutting-edge technology to provide a modern and efficient learning and management experience. We prioritize data security and privacy, implementing robust measures to protect sensitive information."
+  },
+  {
+    "title": "Can LearnHq's solutions accommodate my institution's growth?",
+    "response": "Yes, our systems are scalable and designed to grow with your institution. Whether you have a small school or a large educational organization, our solutions can accommodate your expanding needs."
+  },
+  {
+    "title": "How can I get in touch with LearnHq for further information or support?",
+    "response": "You can contact us by filling out the contact form on this page, sending an email to [email protected], or calling our support hotline at XXX-XXXX-XXXX."
+  }
+]

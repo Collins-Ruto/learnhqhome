@@ -1,6 +1,7 @@
 import React from 'react'
+import { Metadata } from 'next';
 
-function page() {
+export default function page() {
   return (
     <div className="bg-white">
       <div className="flex flex-col min-h-screen">
@@ -51,4 +52,29 @@ function page() {
   );
 }
 
-export default page
+export const metadata: Metadata = {
+  title: "About Us",
+  metadataBase: new URL("https://learnhq.vercel.app/about"),
+  description:
+    "LearnHQ is a comprehensive learning management system that provides quality education and resources to students, teachers, and parents.",
+  keywords: [
+    "learnhq",
+    "learn",
+    "learnhq africa",
+    "education",
+    "learning management system",
+    "lms",
+    "africa education",
+    "study",
+    "online learning",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  authors: [
+    {
+      name: "Collins Ruto",
+      url: "https://collinsruto.netlify.app",
+    },
+  ],
+};

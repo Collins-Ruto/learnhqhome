@@ -113,7 +113,7 @@ export const faqs = [
   },
   {
     "title": "How can I get in touch with LearnHq for further information or support?",
-    "response": "You can contact us by filling out the contact form on this page, sending an email to [email protected], or calling our support hotline at +254 711 339 134."
+    "response": "You can contact us by filling out the contact form on this page, sending an email to learnhqafrica@gmail.com, or calling our support hotline at +254 711 339 134."
   }
 ]
 
@@ -155,5 +155,34 @@ export const conditions = [
     "description": "We may terminate or suspend your access to our platform at any time without prior notice, for any reason or no reason. Upon termination, you must cease all use of our services."
   }
 ]
+
+export const policies = [
+  {
+    "title": "Information Collection:",
+    "description": "We may collect personal information, such as your name, email address, and contact details, when you submit forms or interact with our services."
+  },
+  {
+    "title": "Usage of Information:",
+    "description": "The personal information we collect is used to provide and improve our services, respond to inquiries, and communicate with you. We may also use the information to send you relevant updates and promotional materials, but you can opt-out at any time."
+  },
+  {
+    "title": "Information Sharing:",
+    "description": "We do not sell or share your personal information with third parties, except for specific purposes such as providing support or complying with legal obligations."
+  },
+  {
+    "title": "Data Security:",
+    "description": "We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or disclosure."
+  },
+  {
+    "title": "Third-Party Links:",
+    "description": "Our website may contain links to third-party websites or services. We are not responsible for the privacy practices or content of those websites."
+  },
+  {
+    "title": "Updates to Privacy Policy:",
+    "description": "We may update our Privacy Policy from time to time, and any changes will be posted on this page. It is recommended to review the policy periodically."
+  }
+]
+
+
 
 

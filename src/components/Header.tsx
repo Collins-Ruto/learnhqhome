@@ -51,8 +51,10 @@ function Header() {
                     <li>
                       <Link
                         href={`/`}
-                        className={` cursor-pointer items-center border-b-2 border-transparent align-middle hover:text-blue-600 ${
-                          currentRoute === "/" ? " border-orange-500" : ""
+                        className={` cursor-pointer items-center border-b-2  align-middle hover:text-blue-600 ${
+                          currentRoute === "/"
+                            ? " border-orange-500"
+                            : "border-transparent"
                         }`}
                       >
                         <span className="rounded">Home</span>
@@ -77,8 +79,10 @@ function Header() {
                     </li>
                     <Link
                       href={`/about`}
-                      className={` cursor-pointer items-center border-b-2 border-transparent align-middle hover:text-blue-600 ${
-                        currentRoute === "/about" ? " border-orange-500" : ""
+                      className={` cursor-pointer items-center border-b-2  align-middle hover:text-blue-600 ${
+                        currentRoute === "/about"
+                          ? " border-orange-500"
+                          : "border-transparent"
                       }`}
                     >
                       <span className="rounded">About</span>
@@ -86,10 +90,10 @@ function Header() {
                     <li>
                       <Link
                         href={`/contact`}
-                        className={` cursor-pointer items-center border-b-2 border-transparent align-middle hover:text-blue-600 ${
+                        className={` cursor-pointer items-center border-b-2 align-middle hover:text-blue-600 ${
                           currentRoute === "/contact"
                             ? " border-orange-500"
-                            : ""
+                            : "border-transparent"
                         }`}
                       >
                         <span className="rounded">Contact</span>
@@ -98,8 +102,10 @@ function Header() {
                     <li>
                       <Link
                         href={`/faq`}
-                        className={` cursor-pointer items-center border-b-2 border-transparent align-middle hover:text-blue-600 ${
-                          currentRoute === "/faq" ? " border-orange-500" : ""
+                        className={` cursor-pointer items-center border-b-2  align-middle hover:text-blue-600 ${
+                          currentRoute === "/faq"
+                            ? " border-orange-500"
+                            : "border-transparent"
                         }`}
                       >
                         <span className="rounded">FAQs</span>

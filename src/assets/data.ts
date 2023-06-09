@@ -116,3 +116,44 @@ export const faqs = [
     "response": "You can contact us by filling out the contact form on this page, sending an email to [email protected], or calling our support hotline at +254 711 339 134."
   }
 ]
+
+export const conditions = [
+  {
+    "title": "Information Collection:",
+    "description": "We may collect personal information, such as your name, email address, and contact details, when you submit forms or interact with our services."
+  },
+  {
+    "title": "Account Registration:",
+    "description": "You may need to create an account to access certain features or services. You are responsible for maintaining the confidentiality of your account credentials and ensuring their proper use."
+  },
+  {
+    "title": "Intellectual Property:",
+    "description": "The content and materials on our website, including text, graphics, logos, and images, are protected by intellectual property laws. You may not reproduce, modify, distribute, or use our content without explicit permission."
+  },
+  {
+    "title": "User Conduct:",
+    "description": "You agree to use our platform responsibly and not engage in any illegal, harmful, or abusive activities. You are solely responsible for any content you post or transmit through our platform."
+  },
+  {
+    "title": "Third-Party Websites and Services:",
+    "description": "Our website may contain links to third-party websites or services. We do not endorse or assume responsibility for the content, privacy practices, or terms and conditions of these external sites."
+  },
+  {
+    "title": "Limitation of Liability:",
+    "description": "We strive to provide accurate and reliable information, but we do not guarantee the completeness, timeliness, or accuracy of the content on our platform. We shall not be liable for any direct or indirect damages arising from your use of our services."
+  },
+  {
+    "title": "Privacy:",
+    "description": "Our Privacy Policy governs the collection, use, and disclosure of your personal information. By using our platform, you consent to the practices outlined in our Privacy Policy."
+  },
+  {
+    "title": "Modifications to Terms:",
+    "description": "We reserve the right to modify these Terms and Conditions at any time. Any changes will be effective immediately upon posting on our website. It is your responsibility to review these terms periodically."
+  },
+  {
+    "title": "Termination:",
+    "description": "We may terminate or suspend your access to our platform at any time without prior notice, for any reason or no reason. Upon termination, you must cease all use of our services."
+  }
+]
+
+

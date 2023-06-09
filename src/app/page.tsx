@@ -53,8 +53,8 @@ export default function Home() {
           </div>
         </div>
         <div className="pt-[4rem] text-black">
-          <div className=" bg-[url('/contactbg.webp')] bg-fixed bg-cover bg-center">
-            <div className="mx-auto  bg-white bg-opacity-70">
+          <div className=" bg-[url('/stat1.jpg')] bg-fixed bg-cover bg-center">
+            <div className="mx-auto  bg-black bg-opacity-60">
               <div className="container py-[2rem] px-8 sm:px-6 m:px-0 lg:px-20 mx-auto">
                 <Stats />
               </div>

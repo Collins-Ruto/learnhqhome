@@ -11,7 +11,7 @@ type Stat = {
 function Stats() {
   const statCard = (stat: Stat) => {
     return (
-      <div className="flex flex-col gap-2 items-center bg-gray-200 py-4 p-2 rounded-lg">
+      <div className="flex flex-col gap-2 items-center bg-gray-200 bg-opacity-80 py-4 p-2 rounded-lg">
         <Image
           width={60}
           height={60}
@@ -28,7 +28,7 @@ function Stats() {
   return (
     <div>
       <div className="container mx-auto">
-        <div className="text-4xl font-bold text-center underline underline-offset-4 pb-4">Current Progress</div>
+        <div className="text-4xl font-bold text-white text-center underline underline-offset-4 pb-4">Current Progress</div>
         <div className="flex py-4 gap-4 flex-wrap md:flex-nowrap sm:flex-row">
           {stats.map((stat, index) => (
             <div className="w-1/3 md:w-1/4 grow" key={index}>

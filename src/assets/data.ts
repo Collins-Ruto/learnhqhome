@@ -113,6 +113,6 @@ export const faqs = [
   },
   {
     "title": "How can I get in touch with LearnHq for further information or support?",
-    "response": "You can contact us by filling out the contact form on this page, sending an email to [email protected], or calling our support hotline at XXX-XXXX-XXXX."
+    "response": "You can contact us by filling out the contact form on this page, sending an email to [email protected], or calling our support hotline at +254 711 339 134."
   }
 ]

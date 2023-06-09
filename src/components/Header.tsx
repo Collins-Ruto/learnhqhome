@@ -56,14 +56,7 @@ function Header() {
                         Forums
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        href="https://learnhq.vercel.app"
-                        className="hover:text-blue-500"
-                      >
-                        Demo
-                      </Link>
-                    </li>
+
                     <li>
                       <Link
                         href="https://learnhq.vercel.app/learn/courses"
@@ -83,6 +76,11 @@ function Header() {
                         className="hover:text-blue-500 hidden md:block"
                       >
                         Contact
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/faq" className="hover:text-blue-500">
+                        FAQs
                       </Link>
                     </li>
                     <li></li>
@@ -112,41 +110,60 @@ function Header() {
               setOpened(!opened);
             }}
             className="
-                max-w-[20rem]  absolute right-0 flex h-screen w-[50%] flex-col overflow-y-auto bg-[#F7F6FB] p-4 opacity-100 bg-blend-darken md:w-60 "
+               text-3xl font-semibold gap-4 max-w-[20rem]  absolute right-0 flex h-screen w-[50%] flex-col overflow-y-auto bg-[#F7F6FB] p-4 opacity-100 bg-blend-darken md:w-60 "
           >
             <Link
-              href={`/`}
-              className={`mt-4 flex cursor-pointer items-center rounded-md p-2 align-middle text-gray-800 hover:text-blue-700 ${
+              href={`https://twitter.com/learnhqafrica`}
+              className={` flex cursor-pointer items-center rounded-md p-2 align-middle text-gray-800 hover:text-blue-700 ${
                 currentRoute === "/"
                   ? "hover:text bg-blue-700 text-white hover:text-white"
                   : ""
               }`}
             >
-              <Image
+              {/* <Image
                 width={20}
                 height={20}
                 className="mr-2 w-6 rounded-sm bg-[#F7F6FB]"
                 src="https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png"
                 alt=""
-              />
-              <span className="text-lg">Sidebar</span>
+              /> */}
+              <span className="">Forums</span>
             </Link>
             <Link
               href={`/about`}
-              className={`mt-4 flex cursor-pointer items-center rounded-md p-2 align-middle text-gray-800 hover:text-blue-700 ${
+              className={` cursor-pointer p-2 rounded items-center align-middle text-gray-800 hover:text-blue-700 ${
                 currentRoute === "/about"
                   ? "hover:text bg-blue-700 text-white hover:text-white"
                   : ""
               }`}
             >
-              <Image
-                width={20}
-                height={20}
-                className="mr-2 w-6 rounded-sm bg-[#F7F6FB]"
-                src="https://img.icons8.com/material-rounded/24/000000/dashboard-layout.png"
-                alt=""
-              />
-              <span className="text-lg">About Us</span>
+              <span className="rounded">About Us</span>
+            </Link>
+
+            <Link
+              href="https://learnhq.vercel.app/learn/courses"
+              className="hover:text-blue-500 p-2 rounded"
+            >
+              Courses
+            </Link>
+            <Link href="/contact" className="hover:text-blue-500 p-2 rounded">
+              Contact
+            </Link>
+            <Link
+              href="https://learnhq.vercel.app/login"
+              className=" p-2 rounded"
+            >
+              Demo
+            </Link>
+            <Link
+              href={`/faq`}
+              className={`flex p-2 rounded cursor-pointer items-center align-middle text-gray-800 hover:text-blue-700 ${
+                currentRoute === "/faq"
+                  ? "hover:text bg-blue-700 text-white hover:text-white"
+                  : ""
+              }`}
+            >
+              FAQs
             </Link>
           </div>
         </div>

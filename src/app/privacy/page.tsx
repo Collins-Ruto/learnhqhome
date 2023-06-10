@@ -7,8 +7,8 @@ function page() {
   return (
     <div>
       <section className="bg-white dark:bg-gray-900 min-h-screen text-gray-900 dark:text-white">
-        <div className="container border-b px-8 py-8 sm:px-6 lg:px-20 lg:max-w-[70%] mx-auto 2xl:max-w-screen-xl sm:pt-16">
-          <h2 className="mb-4 text-center text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <div className="container border-b px-6 py-8 sm:px-6 lg:px-20 lg:max-w-[70%] mx-auto 2xl:max-w-screen-xl sm:pt-16">
+          <h2 className="mb-4 text-center text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Our Privacy Policy
           </h2>
           <h2 className="mb-8 text-center text-gray-700 dark:text-gray-300 tracking-tight font-semibold ">
@@ -24,7 +24,7 @@ function page() {
             </p>
             <ul className="flex flex-col gap-4 pl-6">
               {policies.map((policy, index) => (
-                <li className="flex flex-col">
+                <li className="flex flex-col" key={index}>
                   <span className="text-xl font-semibold">{policy.title}</span>
                   {policy.description}
                 </li>

@@ -4,16 +4,16 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <footer className="bg-slate-900  text-white px-8 ">
+      <footer className="bg-slate-900  text-white px-6 md:px-10 ">
         <div className="container mx-auto w-full max-w-screen-xl py-4 md:p-2 lg:pt-8">
           <div className="md:flex md:justify-between">
             <div className="grid w-full grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
               <div className="">
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-3 sm:mb:6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Quick Links
                 </h2>
                 <ul className="text-gray-600 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
+                  <li className="mb-2 sm:mb-4">
                     <Link href="/about" className="hover:underline">
                       About Us
                     </Link>
@@ -26,11 +26,11 @@ function Footer() {
                 </ul>
               </div>
               <div className="">
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-3 sm:mb:6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Resources
                 </h2>
                 <ul className="text-gray-600 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
+                  <li className="mb-2 sm:mb-4">
                     <Link
                       href="https://learnhq.vercel.app/learn/courses"
                       className="hover:underline"
@@ -49,11 +49,11 @@ function Footer() {
                 </ul>
               </div>
               <div className="">
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-3 sm:mb:6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Follow us
                 </h2>
                 <ul className="text-gray-600 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
+                  <li className="mb-2 sm:mb-4">
                     <Link
                       href="https://twitter.com/learnhqafrica"
                       className="hover:underline "
@@ -72,11 +72,11 @@ function Footer() {
                 </ul>
               </div>
               <div className="">
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-3 sm:mb:6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Legal
                 </h2>
                 <ul className="text-gray-600 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
+                  <li className="mb-2 sm:mb-4">
                     <Link href="/privacy" className="hover:underline">
                       Privacy Policy
                     </Link>

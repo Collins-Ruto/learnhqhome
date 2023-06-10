@@ -2,7 +2,7 @@ import { Contact, Stats, WhyUs } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default function Page() {
   return (
     <div className="min-h-screen flex flex-col justify-between bg-gray-100 ">
       <div className="">
@@ -18,7 +18,7 @@ export default function Home() {
             <p className="mt-4 text-justify  text-gray-700 md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-200">
               LearnHQ is a modern school & learning management system designed
               to provide quality education. We streamline Learning, teaching and
-              management Experience with Our Intuitive management System to
+              management experience with Our Intuitive management System to
               students, teachers.
             </p>
             <Link
@@ -33,7 +33,7 @@ export default function Home() {
             <Image width={1200} height={400} src="/hero.webp" alt="learnhq" />
           </div>
         </main>
-        
+
         <div className="bg-[url('/bookbg.webp')] bg-cover bg-center py-[4rem] ">
           <div className="container px-5 sm:px-6 m:px-0 lg:px-20 mx-auto">
             <WhyUs />
@@ -42,7 +42,7 @@ export default function Home() {
         <div className="pt-[4rem] text-black">
           <div className=" bg-[url('/stat1.jpg')] bg-fixed bg-cover bg-center">
             <div className="mx-auto  bg-black bg-opacity-60">
-              <div className="container py-[2rem] px-5 sm:px-6 m:px-0 lg:px-20 mx-auto">
+              <div className="container py-[2rem] px-4 sm:px-6 m:px-0 lg:px-20 mx-auto">
                 <Stats />
               </div>
             </div>

@@ -40,8 +40,8 @@ function Contact() {
             <span className="py-2">Curious about something?</span>
           </div>
           <div className="flex flex-wrap gap-4">
-            {contacts.map((contact) => (
-              <div className="w-1/2 md:w-1/3 lg:w-1/4 grow">
+            {contacts.map((contact, index) => (
+              <div className="w-1/2 md:w-1/3 lg:w-1/4 grow" key={index}>
                 {contactCard(contact)}
               </div>
             ))}

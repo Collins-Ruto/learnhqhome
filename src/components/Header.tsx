@@ -138,7 +138,7 @@ function Header() {
               setOpened(!opened);
             }}
             className="
-               text-3xl font-semibold gap-4 max-w-[20rem]  absolute right-0 flex h-screen w-[50%] flex-col overflow-y-auto bg-[#F7F6FB] p-4 opacity-100 bg-blend-darken md:w-60 "
+               text-2xl font-semibold gap-2 max-w-[20rem]  absolute right-0 flex h-screen w-[60%] flex-col pt-[5rem] overflow-y-auto bg-[#F7F6FB] p-4 opacity-100 bg-blend-darken md:w-60 "
           >
             <Link
               href={`/`}
@@ -152,11 +152,7 @@ function Header() {
             </Link>
             <Link
               href={`https://twitter.com/learnhqafrica`}
-              className={` flex cursor-pointer items-center rounded-md p-2 px-4 align-middle text-gray-800 hover:text-blue-700 ${
-                currentRoute === "/"
-                  ? "hover:text bg-blue-700 text-white hover:text-white"
-                  : ""
-              }`}
+              className={` flex cursor-pointer items-center rounded-md p-2 px-4 align-middle text-gray-800 hover:text-blue-700 `}
             >
               {/* <Image
                 width={20}

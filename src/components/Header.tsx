@@ -39,13 +39,14 @@ function Header() {
               <Link href="/" className="cursor-pointer flex">
                 <Image
                   width={100}
-                  height={100}
+                  height={45}
                   src="/lhlogo.webp"
                   alt="learnhq"
                   className="mr-2"
+                  loading="eager"
                 />
               </Link>
-              <div className="flex items-center">
+              <div className="">
                 <nav className="text-gray-700">
                   <ul className="flex items-center font-semibold md:text-lg space-x-2 md:space-x-4 text-sm">
                     <li>

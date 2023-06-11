@@ -138,7 +138,7 @@ function Header() {
               setOpened(!opened);
             }}
             className="
-               text-2xl font-semibold gap-2 max-w-[20rem]  absolute right-0 flex h-screen w-[60%] flex-col pt-[5rem] overflow-y-auto bg-[#F7F6FB] p-4 opacity-100 bg-blend-darken md:w-60 "
+               text-2xl font-semibold gap-2 max-w-[20rem] text-gray-800  absolute right-0 flex h-screen w-[60%] flex-col pt-[5rem] overflow-y-auto bg-[#F7F6FB] p-4 opacity-100 bg-blend-darken md:w-60 "
           >
             <Link
               href={`/`}

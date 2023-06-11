@@ -7,7 +7,7 @@ function page() {
   return (
     <div>
       <section className="bg-white dark:bg-gray-900 min-h-screen text-gray-900 dark:text-white">
-        <div className="container border-b px-6 py-8 sm:px-6 lg:px-20 lg:max-w-[70%] mx-auto 2xl:max-w-screen-xl sm:pt-16">
+        <div className="container px-6 py-8 sm:px-6 lg:px-20 lg:max-w-[70%] mx-auto 2xl:max-w-screen-xl sm:pt-16">
           <h2 className="mb-4 text-center text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Our Privacy Policy
           </h2>
@@ -31,7 +31,7 @@ function page() {
               ))}
             </ul>
           </div>
-          <div className="">
+          <div className="border-b pb-4">
             <h1 className="pt-4 pb-2 text-2xl font-bold">Contacting us</h1>
             <p className="">
               If you have any questions or concerns about our Privacy Policy or

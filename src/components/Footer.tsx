@@ -12,7 +12,7 @@ function Footer() {
                 <h2 className="mb-3 sm:mb:6 text-sm font-semibold uppercase dark:text-white">
                   Quick Links
                 </h2>
-                <ul className="dark:text-gray-400 font-medium">
+                <ul className="text-gray-400 font-medium">
                   <li className="mb-2 sm:mb-4">
                     <Link href="/about" className="hover:underline">
                       About Us
@@ -29,7 +29,7 @@ function Footer() {
                 <h2 className="mb-3 sm:mb:6 text-sm font-semibold uppercase dark:text-white">
                   Resources
                 </h2>
-                <ul className="dark:text-gray-400 font-medium">
+                <ul className="text-gray-400 font-medium">
                   <li className="mb-2 sm:mb-4">
                     <Link
                       href="https://learnhq.vercel.app/learn/courses"
@@ -52,7 +52,7 @@ function Footer() {
                 <h2 className="mb-3 sm:mb:6 text-sm font-semibold uppercase dark:text-white">
                   Follow us
                 </h2>
-                <ul className="dark:text-gray-400 font-medium">
+                <ul className="text-gray-400 font-medium">
                   <li className="mb-2 sm:mb-4">
                     <Link
                       href="https://twitter.com/learnhqafrica"
@@ -75,7 +75,7 @@ function Footer() {
                 <h2 className="mb-3 sm:mb:6 text-sm font-semibold uppercase dark:text-white">
                   Legal
                 </h2>
-                <ul className="dark:text-gray-400 font-medium">
+                <ul className="text-gray-400 font-medium">
                   <li className="mb-2 sm:mb-4">
                     <Link href="/privacy" className="hover:underline">
                       Privacy Policy

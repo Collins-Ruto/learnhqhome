@@ -6,8 +6,8 @@ export default function Page() {
   return (
     <div className="min-h-screen flex flex-col justify-between bg-gray-100 ">
       <div className="">
-        <main className="container min-h-[calc(100vh_-_3.5rem)] 2xl:min-h-[34rem] 2xl:pb-16 px-5 sm:px-6 m:px-0 lg:px-20  flex flex-col md:flex-row mx-auto py-4 md:flex items-center justify-center">
-          <div className="flex gap-2 sm:gap-4 flex-col md:block text-center md:text-left order-last md:order-first">
+        <main className="container min-h-[calc(100vh_-_3.5rem)] 2xl:min-h-[34rem] 2xl:pb-16 px-5 sm:px-6 m:px-0 lg:px-20  flex flex-col lg:flex-row mx-auto py-4 lg:flex items-center justify-center">
+          <div className="flex gap-2 sm:gap-4 flex-col md:block text-center md:text-left order-last lg:order-first">
             <span className="font-bold text-[#6932FE] text-primary-500 text-sm text-center md:text-left uppercase">
               Transform Education
             </span>
@@ -15,7 +15,7 @@ export default function Page() {
               Discover, Collaborate, Succeed with LearnHq
             </h2>
 
-            <p className="mt-4 text-justify  text-gray-700 md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-200">
+            <p className="mt-4 text-justify  text-gray-700 md:text-left text-lg lg:text-lg font-medium leading-relaxed text-secondary-200">
               LearnHQ is a modern school & learning management system designed
               to provide quality education. We streamline Learning, teaching and
               management experience with Our Intuitive management System to

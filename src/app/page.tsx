@@ -30,7 +30,13 @@ export default function Page() {
             </Link>
           </div>
           <div className="ml-2 pb-8 md:p-0 ">
-            <Image width={1200} height={400} src="/hero.webp" alt="learnhq" />
+            <Image
+              width={1200}
+              height={400}
+              src="/hero.webp"
+              alt="learnhq"
+              loading="eager"
+            />
           </div>
         </main>
 

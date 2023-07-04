@@ -97,6 +97,7 @@ function Footer() {
                 <Link
                   href="https://collinsruto.netlify.com"
                   type="button"
+                  aria-label="collins ruto website"
                   className="m-1 h-9 w-9 hover:h-10 hover:w-10 hover:border-gray-500 rounded-full border-2 border-white uppercase leading-normal text-white hover:bg-pink-600 hover:border-none transition-all duration-150 ease-in-out bg-black bg-opacity-20 focus:outline-none focus:ring-0"
                   data-te-ripple-init
                   data-te-ripple-color="light"
@@ -114,6 +115,7 @@ function Footer() {
                 <Link
                   href="https://twitter.com/ruto_collins_"
                   type="button"
+                  aria-label="collins ruto twitter"
                   className="m-1 h-9 w-9 hover:h-10 hover:w-10 hover:border-gray-500 rounded-full border-2 border-white uppercase leading-normal text-white hover:bg-pink-600 hover:border-none transition-all duration-150 ease-in-out bg-black bg-opacity-20 focus:outline-none focus:ring-0"
                   data-te-ripple-init
                   data-te-ripple-color="light"
@@ -131,6 +133,7 @@ function Footer() {
                 <Link
                   href="https://instagram.com/learn.hq"
                   type="button"
+                  aria-label="learnhq instagram"
                   className="m-1 h-9 w-9 hover:h-10 hover:w-10 hover:border-gray-500 rounded-full border-2 border-white uppercase leading-normal text-white hover:bg-pink-600 hover:border-none transition-all duration-150 ease-in-out bg-black bg-opacity-20 focus:outline-none focus:ring-0"
                   data-te-ripple-init
                   data-te-ripple-color="light"
@@ -148,6 +151,7 @@ function Footer() {
                 <Link
                   href="https://www.linkedin.com/in/collins-ruto"
                   type="button"
+                  aria-label="collins ruto linkedin "
                   className="m-1 h-9 w-9 hover:h-10 hover:w-10 hover:border-gray-500 rounded-full border-2 border-white uppercase leading-normal text-white hover:bg-pink-600 hover:border-none transition-all duration-150 ease-in-out bg-black bg-opacity-20 focus:outline-none focus:ring-0"
                   data-te-ripple-init
                   data-te-ripple-color="light"
@@ -165,6 +169,7 @@ function Footer() {
                 <Link
                   href="https://github.com/collins-ruto"
                   type="button"
+                  aria-label="collins ruto github"
                   className="m-1 h-9 w-9 hover:h-10 hover:w-10 hover:border-gray-500 rounded-full border-2 border-white uppercase leading-normal text-white hover:bg-pink-600 hover:border-none transition-all duration-150 ease-in-out bg-black bg-opacity-20 focus:outline-none focus:ring-0"
                   data-te-ripple-init
                   data-te-ripple-color="light"

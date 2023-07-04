@@ -47,7 +47,7 @@ function Header() {
               </Link>
               <div className="flex items-center">
                 <nav className="text-gray-700">
-                  <ul className="flex font-semibold md:text-lg space-x-2 md:space-x-4 text-sm">
+                  <ul className="flex items-center font-semibold md:text-lg space-x-2 md:space-x-4 text-sm">
                     <li>
                       <Link
                         href={`/`}
@@ -77,16 +77,18 @@ function Header() {
                         Courses
                       </Link>
                     </li>
-                    <Link
-                      href={`/about`}
-                      className={` cursor-pointer items-center border-b-2  align-middle hover:text-blue-600 ${
-                        currentRoute === "/about"
-                          ? " border-orange-500"
-                          : "border-transparent"
-                      }`}
-                    >
-                      <span className="rounded">About</span>
-                    </Link>
+                    <li>
+                      <Link
+                        href={`/about`}
+                        className={` cursor-pointer items-center border-b-2  align-middle hover:text-blue-600 ${
+                          currentRoute === "/about"
+                            ? " border-orange-500"
+                            : "border-transparent"
+                        }`}
+                      >
+                        <span className="rounded">About</span>
+                      </Link>
+                    </li>
                     <li>
                       <Link
                         href={`/contact`}
@@ -111,15 +113,16 @@ function Header() {
                         <span className="rounded">FAQs</span>
                       </Link>
                     </li>
-                    <li></li>
+                    <li>
+                      <Link
+                        href="https://learnhq.vercel.app/login"
+                        className="inline-block px-5 py-2 border border-transparent text-base leading-6 rounded-md text-white bg-primary-500 hover:bg-primary-700 focus:outline-none focus:border-primary-700 focus:shadow-outline-indigo font-semibold bg-indigo-600 active:bg-indigo-700 transition ease-in-out duration-150"
+                      >
+                        Demo
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
-                <Link
-                  href="https://learnhq.vercel.app/login"
-                  className="inline-block px-5 py-2 border border-transparent text-base leading-6 rounded-md text-white bg-primary-500 hover:bg-primary-700 focus:outline-none focus:border-primary-700 focus:shadow-outline-indigo font-semibold bg-indigo-600 active:bg-indigo-700 transition ease-in-out duration-150"
-                >
-                  Demo
-                </Link>
               </div>
             </div>
           </header>

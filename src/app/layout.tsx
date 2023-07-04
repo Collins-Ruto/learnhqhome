@@ -22,7 +22,7 @@ export default function RootLayout({
         ) : null}
         <div className={`${inter.variable}bg-white `}>
           <Header />
-          <div className=" text-black">{children}</div>
+          <div className="">{children}</div>
           <Footer />
         </div>
         <Analytics />
@@ -112,7 +112,7 @@ export const metadata: Metadata = {
   viewport: {
     width: "device-width",
     initialScale: 1,
-    maximumScale: 1,
+    maximumScale: 5,
   },
   robots: {},
 };
